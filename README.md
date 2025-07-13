@@ -2,13 +2,14 @@
 
 ## Overview
 In this project we have two models that perform two different operations.
-    -> One model is used to classify the type of garbage into 12 categories (paper, metal, cardboard etc)
-    -> The other model is used to classify the type of garbage into 2 categories (Organic, Recyclable)
+- One model is used to classify the type of garbage into 12 categories (paper, metal, cardboard etc)
+- The other model is used to classify the type of garbage into 2 categories (Organic, Recyclable)
+
 This project aims to automatically classify garbage images into categories using a Convolutional Neural Network (CNN) and Transfer Learning. The model is trained on a labeled image dataset to assist in smart waste management and recycling efforts.
 
 ## Files
--> ModelTest.ipynb : This is the main file where we test our models for classifying orgainc and recyclable waste
--> FinalProject(individual).ipynb : This file is used to train the model for classifying 12, but I just made the model using metal and paper as sample dataset
+- ModelTest.ipynb : This is the main file where we test our models for classifying orgainc and recyclable waste.
+- FinalProject(individual).ipynb : This file is used to train the model for classifying 12, but I just made the model using metal and paper as sample dataset.
 
 ## Project Structure
 ```
@@ -55,12 +56,13 @@ garbage-classification/
 - Dataset contains organic and recyclable waste images used for this project can be found in this repository.
 - Sample dataset used for classifying the 12 categories is there in the kaggle dataset.
 - Use the below code to load the dataset. Note : - You should set up the API key properly before running the below code.
-    CODE : - 
-        import kagglehub
-        # Download latest version
-        path = kagglehub.dataset_download("mostafaabla/garbage-classification")
-        print("Path to dataset files:", path)
-
+- CODE : -
+   ```bash
+            import kagglehub
+            # Download latest version
+            path = kagglehub.dataset_download("mostafaabla/garbage-classification")
+            print("Path to dataset files:", path)
+   ```
 ## Installation
 ```bash
 git clone https://github.com/venky1408/garbage-classification.git
@@ -78,7 +80,8 @@ cd garbage-classification
 | Test Accuracy       | 93.12%     |
 
 
-> Check `results/` for output images..
+> ## Results : - <img width="1171" height="663" alt="Results(classification(metalpaper))" src="https://github.com/user-attachments/assets/69f3343b-85e8-4a6c-ac0b-f9dece75fb6f" />
+
 
 ## Technologies Used
 - Python
