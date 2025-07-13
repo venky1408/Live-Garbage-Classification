@@ -2,13 +2,14 @@
 
 ## Overview
 In this project we have two models that perform two different operations.
-    -> One model is used to classify the type of garbage into 12 categories (paper, metal, cardboard etc)
-    -> The other model is used to classify the type of garbage into 2 categories (Organic, Recyclable)
+- One model is used to classify the type of garbage into 12 categories (paper, metal, cardboard etc)
+- The other model is used to classify the type of garbage into 2 categories (Organic, Recyclable)
+
 This project aims to automatically classify garbage images into categories using a Convolutional Neural Network (CNN) and Transfer Learning. The model is trained on a labeled image dataset to assist in smart waste management and recycling efforts.
 
 ## Files
--> ModelTest.ipynb : This is the main file where we test our models for classifying orgainc and recyclable waste
--> FinalProject(individual).ipynb : This file is used to train the model for classifying 12, but I just made the model using metal and paper as sample dataset
+- ModelTest.ipynb : This is the main file where we test our models for classifying orgainc and recyclable waste.
+- FinalProject(individual).ipynb : This file is used to train the model for classifying 12, but I just made the model using metal and paper as sample dataset.
 
 ## Project Structure
 ```
@@ -79,7 +80,8 @@ cd garbage-classification
 | Test Accuracy       | 93.12%     |
 
 
-> ## results : - 
+> ## Results : - <img width="1171" height="663" alt="Results(classification(metalpaper))" src="https://github.com/user-attachments/assets/69f3343b-85e8-4a6c-ac0b-f9dece75fb6f" />
+
 
 ## Technologies Used
 - Python
