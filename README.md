@@ -55,12 +55,13 @@ garbage-classification/
 - Dataset contains organic and recyclable waste images used for this project can be found in this repository.
 - Sample dataset used for classifying the 12 categories is there in the kaggle dataset.
 - Use the below code to load the dataset. Note : - You should set up the API key properly before running the below code.
-    CODE : - 
-        import kagglehub
-        # Download latest version
-        path = kagglehub.dataset_download("mostafaabla/garbage-classification")
-        print("Path to dataset files:", path)
-
+- CODE : -
+   ```bash
+            import kagglehub
+            # Download latest version
+            path = kagglehub.dataset_download("mostafaabla/garbage-classification")
+            print("Path to dataset files:", path)
+   ```
 ## Installation
 ```bash
 git clone https://github.com/venky1408/garbage-classification.git
@@ -78,7 +79,7 @@ cd garbage-classification
 | Test Accuracy       | 93.12%     |
 
 
-> Check `results/` for output images..
+> ## results : - 
 
 ## Technologies Used
 - Python
